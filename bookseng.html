@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diving into books! - ETEC Ermelinda Giannini Teixeira</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+      <!-- Custom CSS -->
+      <style>
+        html,
+        body {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+  
+        body {
+          font-family: "Poppins", sans-serif;
+          background-color: #e9f7ef;
+          background-image: url("img/livro.png");
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          color: #333;
+          margin: 0;
+        }
+  
+        header {
+          background-color: #81c784; /* Light green */
+          color: white;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        #Buttons {
+          background-color: #66bb6a; /* Slightly darker green */
+          color: white;
+          border: none;
+          margin-top: 10px;
+          padding: 10px 15px;
+        }
+  
+        .container {
+          flex: 1;
+        }
+  
+        section {
+          margin: 20px auto;
+          max-width: 900px;
+          padding: 20px;
+          background-color: white;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+  
+        .carousel-item img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+  
+        footer {
+          background-color: #388e3c; /* Darker green */
+          color: white;
+          padding: 20px;
+          text-align: center;
+          width: 100%;
+          margin-top: auto;
+        }
+  
+        footer a {
+          color: white;
+          text-decoration: none;
+        }
+  
+        footer a:hover {
+          text-decoration: underline;
+        }
+      </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        📚✨ Discover everything that ETEC Prof. Ermelinda Giannini Teixeira library has to offer! ✨📚  
+      </h1>
+      <div class="d-flex gap-2">
+        <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='livros.html';"
+        >
+          Translate to portuguese
+        </button>
+        <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='indexeng.html';"
+        >
+          Homepage
+        </button>
+        <button
+            id="Buttons"
+            class="btn btn-sm"
+            onclick="window.location.href='videoeng.html';"
+          >
+            Discover more!
+          </button>
+          <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='video2eng.html';"
+        >
+        Cellphone prohibition?
+        </button>
+      </div>
+    </header>
+
+    <section class="container my-5">
+        <div class="card shadow-lg border-0 bg-light">
+        <div class="card-body p-5">
+        <h2 class="text-center">🎲 Much more than books: a space for socializing and leisure!</h2>
+        <p class="text-center">The library is not just a place to study! Here you will also find a meeting point to interact with friends and participate in different activities!</p>
+        <p class="text-center font-weight-bold">📢 Come and see our collection and discover a world of possibilities! 💙📚</p>
+        <center>
+        <video controls width="300"> <source src="vids/livros.mp4">MP4</a></video>
+        </center>
+        </div>
+        </div>
+        </section>
+
+    <main class="container">
+        <section class="container my-5">
+            <div class="card shadow-lg border-0">
+            <div class="card-body p-5">
+            <h2 class="text-center">📖 Classical Literature and College Entrance Exams</h2>
+            <p class="text-center">If you are preparing for college entrance exams or want to learn about the works that have left their mark on Brazilian literature, we have a special collection of unmissable classics:</p>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">📚 Dom Casmurro – Machado de Assis</li>
+            <li class="list-group-item">📚 O Cortiço – Aluísio Azevedo</li>
+            <li class="list-group-item">📚 Senhora – José de Alencar</li>
+            <li class="list-group-item">📚 A Morte e a Morte de Quincas Berro D’Água – Jorge Amado</li>
+            <li class="list-group-item">📚 The Slave Isaura – Bernardo Guimarães</li>
+            <li class="list-group-item">📚 The Athenaeum – Raul Pompéia</li>
+            <li class="list-group-item">📚 Clear Enigma – Carlos Drummond de Andrade</li>
+            </ul>
+            </div>
+            </div>
+            </section>
+          
+          <section class="container my-5">
+            <div class="card shadow-lg border-0">
+              <div class="card-body p-5">
+                <h2 class="text-center">🌍 Foreign Literature and Famous Sagas</h2>
+                <p class="text-center">If adventure, mystery and fantasy are more your style, we have a special selection of international books that will take you to other worlds:</p>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">🔎 Sherlock Holmes – Brilliant mysteries that challenge your mind!</li>
+                <li class="list-group-item">🕵️‍♀️ Agatha Christie – The queen of crime and her surprising plots.</li>
+                <li class="list-group-item">🦁 The Chronicles of Narnia – A magical universe full of discoveries.</li>
+                <li class="list-group-item">🧙 Harry Potter – One of the most beloved sagas in the world!</li>
+                </ul>
+                              </div>
+                            </div>
+                          </section>
+          <section class="container my-5">
+            <div class="card shadow-lg border-0">
+              <div class="card-body p-5">
+                <h2 class="text-center">📕 Technical and Study Support Books</h2>
+                <p class="text-center">Our library is also an excellent space for learning and improvement. Check out some available areas:</p>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">📊 Administration and Marketing – Understand the business world better.</li>
+                <li class="list-group-item">⚖ Law – Explore how laws and justice work.</li>
+                <li class="list-group-item">📚 Education and Pedagogy – For those who want to improve their knowledge in the teaching area.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+
+    </main>
+
+    <footer>
+        <p>
+        &copy; 2025 Biblioteca Etec Ermelinda Giannini Teixeira |
+        <a
+        href="https://www.cps.sp.gov.br/aviso-de-privacidade/"
+        style="color: white; text-decoration: none"
+        >Privacy Notice</a
+        >
+        </p>
+        </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Etec Ermelinda Giannini Teixeira</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <style>
+      html,
+      body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #e9f7ef;
+        background-image: url("img/livro.png");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #333;
+        margin: 0;
+      }
+
+      header {
+        background-color: #81c784; /* Light green */
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #Buttons {
+        background-color: #66bb6a; /* Slightly darker green */
+        color: white;
+        border: none;
+        margin-top: 10px;
+        padding: 10px 15px;
+      }
+
+      .container {
+        flex: 1;
+      }
+
+      section {
+        margin: 20px auto;
+        max-width: 900px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .carousel-item img {
+  max-width: 100%;  /* As imagens ocuparão no máximo a largura do contêiner */
+  height: auto;     /* Mantém a proporção da imagem */
+  max-height: 800px; /* Limita a altura máxima das imagens */
+  object-fit: contain; /* Garantir que a imagem se ajuste sem cortar */
+  display: block;
+  margin: 0 auto; /* Centraliza as imagens no carrossel */
+}
+
+
+      footer {
+        background-color: #388e3c; /* Darker green */
+        color: white;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        margin-top: auto;
+      }
+
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    .carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  }
+  .carousel-control-next {
+    right: 10px; 
+  }
+  .carousel-control-prev {
+    left: 10px; 
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: white; 
+    border-radius: 50%;
+    width: 20px; 
+    height: 20px; 
+    background-size: 80%;
+  }
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+    transform: scale(1.1); 
+  }
+  .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: #f0f0f0; 
+  }
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>
+          📚✨ Explore a Biblioteca da ETEC Prof. Ermelinda Giannini Teixeira! ✨📚
+        </h1>
+        <div class="d-flex gap-2">
+          <button
+            id="Buttons"
+            class="btn btn-sm"
+            onclick="window.location.href='indexeng.html';"
+          >
+            Traduzir para Inglês
+          </button>
+          <button
+            id="Buttons"
+            class="btn btn-sm"
+            onclick="window.location.href='video.html';"
+          >
+            Descubra mais!
+          </button>
+          <button
+            id="Buttons"
+            class="btn btn-sm"
+            onclick="window.location.href='video2.html';"
+          >
+            Proibição dos celulares?
+          </button>
+        </button>
+        <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='livros.html';"
+        >
+          Mergulhando nos livros!
+        </button>
+        </div>
+      </header>
+      
+
+    <main class="container">
+        <section>
+            <h2>📚 Bem-vindo(a) à Biblioteca da ETEC Prof. Ermelinda Giannini Teixeira!</h2>
+            <p>
+              Um espaço pensado para <strong>enriquecer seu aprendizado</strong>, 
+              <strong>ampliar seus horizontes</strong> e proporcionar momentos de 
+              <strong>lazer e concentração</strong>!
+            </p>
+            
+            <hr>
+          
+            <p><strong>📍 Localização:</strong> Ala Leste, ao lado da Secretaria</p>
+            <p><strong>👩‍🏫 Coordenadora:</strong> Profª Renata Maria</p>
+            <p><strong>⏳ Horário de funcionamento:</strong> <em>(A definir)</em></p>
+          
+            <hr>
+          
+            <p>
+              Aqui, você encontra um <strong>ambiente aconchegante e repleto de possibilidades</strong>! 
+              Seja para <strong>aprofundar seus estudos</strong>, 
+              <strong>mergulhar em histórias incríveis</strong> ou simplesmente 
+              <strong>relaxar com um bom livro</strong>, a biblioteca está de 
+              <strong>portas abertas para você!</strong> 📖✨
+            </p>
+          </section>
+          
+
+      <section>
+        <h2>🎲 Muito mais do que uma biblioteca!</h2>
+        <p>A nossa biblioteca não é apenas um lugar para ler e estudar – é um ambiente completo para você se sentir bem!</p>
+
+        <ul>
+          <li>💻 <strong>Computadores</strong> disponíveis para pesquisa e estudo.</li>
+          <li>📚 <strong>Mesas e espaços aconchegantes</strong> para leitura e concentração.</li>
+          <li>🎲 <strong>Jogos de tabuleiro</strong> para momentos de lazer e interação com os amigos.</li>
+          <li>📖 <strong>Clube de leitura e eventos literários</strong> (em breve!) para trocar ideias e conhecer novos livros.</li>
+        </ul>
+      
+        <p>
+          Seja você um apaixonado por livros, um estudante focado ou alguém em busca de um cantinho tranquilo, 
+          a biblioteca está aqui para você!
+        </p>
+      
+        <p><strong>📢 Venha nos visitar, explorar nosso acervo e tornar este espaço um dos seus lugares favoritos da escola! 💙📚</strong></p>
+      </section>
+
+      <section>
+        <h2>📖 Um acervo completo para todos os gostos!</h2>
+        <p>🔹 Livros pedagógicos e técnicos para complementar seus estudos em áreas como Marketing, Administração e Direito.</p>
+        <p>🔹 Clássicos da Literatura Brasileira, incluindo obras frequentemente cobradas em vestibulares:</p>
+
+        <!-- Carrossel de Livros -->
+<div id="livrosCarrossel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      
+      <!-- Item 1 -->
+      <div class="carousel-item active">
+        <img src="img/domcasmurro.jpg" class="d-block w-100" alt="Dom Casmurro">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dom Casmurro</h5>
+          <p>Machado de Assis</p>
+        </div>
+      </div>
+  
+      <!-- Item 2 -->
+      <div class="carousel-item">
+        <img src="img/memoriaspostumas.jpg" class="d-block w-100" alt="Memórias Póstumas de Brás Cubas">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Memórias Póstumas de Brás Cubas</h5>
+          <p>Machado de Assis</p>
+        </div>
+      </div>
+  
+  
+      <!-- Item 5 -->
+      <div class="carousel-item">
+        <img src="img/ocortico.jpg" class="d-block w-100" alt="O Cortiço">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>O Cortiço</h5>
+          <p>Aluísio Azevedo</p>
+        </div>
+      </div>
+  
+      <!-- Item 6 -->
+      <div class="carousel-item">
+        <img src="img/escravaisaura.jpg" class="d-block w-100" alt="A Escrava Isaura">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>A Escrava Isaura</h5>
+          <p>Bernardo Guimarães</p>
+        </div>
+      </div>
+  
+      <!-- Item 7 -->
+      <div class="carousel-item">
+        <img src="img/oateneu.jpg" class="d-block w-100" alt="O Ateneu">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>O Ateneu</h5>
+          <p>Raul Pompéia</p>
+        </div>
+      </div>
+  
+      <!-- Item 8 -->
+      <div class="carousel-item">
+        <img src="img/senhora.jpg" class="d-block w-100" alt="Senhora">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Senhora</h5>
+          <p>José de Alencar</p>
+        </div>
+      </div>
+  
+      <!-- Item 9 -->
+      <div class="carousel-item">
+        <img src="img/quincasberro.jpg" class="d-block w-100" alt="A Morte e a Morte de Quincas Berro D'Água">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>A Morte e a Morte de Quincas Berro D'Água</h5>
+          <p>Jorge Amado</p>
+        </div>
+      </div>
+  
+  
+  
+
+  
+      <!-- Item 12 -->
+      <div class="carousel-item">
+        <img src="img/areliquia.jpg" class="d-block w-100" alt="A Relíquia">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>A Relíquia</h5>
+          <p>Eça de Queiroz</p>
+        </div>
+      </div>
+  
+ 
+      <!-- Item 14 -->
+      <div class="carousel-item">
+        <img src="img/acidade.jpeg" class="d-block w-100" alt="Contos Novos">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>A cidade e a serra</h5>
+          <p>Eça de Queirós</p>
+        </div>
+      </div>
+  
+    </div>
+  
+    <!-- Controles do Carrossel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#livrosCarrossel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#livrosCarrossel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <p></p>
+<p>🔹 Literatura estrangeira e sagas famosas!
+    Se você gosta de suspense, mistério e aventura, vai adorar nosso acervo com Agatha Christie, Sherlock Holmes, As Crônicas de Nárnia, Harry Potter e muitos outros títulos incríveis!</p>  
+
+      </section>
+
+
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 Biblioteca Etec Ermelinda Giannini Teixeira |
+        <a href="https://www.cps.sp.gov.br/aviso-de-privacidade/"
+          >Aviso de Privacidade</a
+        >
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

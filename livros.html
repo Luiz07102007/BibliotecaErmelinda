@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mergulhando nos livros! - ETEC Ermelinda Giannini Teixeira</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+      <!-- Custom CSS -->
+      <style>
+        html,
+        body {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+  
+        body {
+          font-family: "Poppins", sans-serif;
+          background-color: #e9f7ef;
+          background-image: url("img/livro.png");
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          color: #333;
+          margin: 0;
+        }
+  
+        header {
+          background-color: #81c784; /* Light green */
+          color: white;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        #Buttons {
+          background-color: #66bb6a; /* Slightly darker green */
+          color: white;
+          border: none;
+          margin-top: 10px;
+          padding: 10px 15px;
+        }
+  
+        .container {
+          flex: 1;
+        }
+  
+        section {
+          margin: 20px auto;
+          max-width: 900px;
+          padding: 20px;
+          background-color: white;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+  
+        .carousel-item img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+  
+        footer {
+          background-color: #388e3c; /* Darker green */
+          color: white;
+          padding: 20px;
+          text-align: center;
+          width: 100%;
+          margin-top: auto;
+        }
+  
+        footer a {
+          color: white;
+          text-decoration: none;
+        }
+  
+        footer a:hover {
+          text-decoration: underline;
+        }
+      </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        📚✨ Descubra tudo o que a Biblioteca da ETEC Prof. Ermelinda Giannini Teixeira tem a oferecer! ✨📚  
+      </h1>
+      <div class="d-flex gap-2">
+        <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='bookseng.html';"
+        >
+          Traduzir para Inglês
+        </button>
+        <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='index.html';"
+        >
+          Página inicial
+        </button>
+        <button
+            id="Buttons"
+            class="btn btn-sm"
+            onclick="window.location.href='video.html';"
+          >
+            Descubra mais!
+          </button>
+          <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='video2.html';"
+        >
+        Proibição dos celulares?
+        </button>
+      </div>
+    </header>
+
+    <section class="container my-5">
+        <div class="card shadow-lg border-0 bg-light">
+          <div class="card-body p-5">
+            <h2 class="text-center">🎲 Muito mais do que livros: um espaço para convivência e lazer!</h2>
+            <p class="text-center">A biblioteca não é apenas um local para estudar! Aqui você também encontra um ponto de encontro para interagir com os amigos e participar de atividades diferenciadas!</p>
+            <p class="text-center font-weight-bold">📢 Venha conhecer nosso acervo e descubra um mundo de possibilidades! 💙📚</p>
+            <center>
+                <video controls width="300"> <source src="vids/livros.mp4">MP4</a></video>
+              </center>
+          </div>
+        </div>
+      </section>
+
+    <main class="container">
+        <section class="container my-5">
+            <div class="card shadow-lg border-0">
+              <div class="card-body p-5">
+                <h2 class="text-center">📖 Literatura Clássica e Vestibulares</h2>
+                <p class="text-center">Se você está se preparando para o vestibular ou deseja conhecer as obras que marcaram a literatura brasileira, temos um acervo especial com clássicos imperdíveis:</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">📚 Dom Casmurro – Machado de Assis</li>
+                  <li class="list-group-item">📚 O Cortiço – Aluísio Azevedo</li>
+                  <li class="list-group-item">📚 Senhora – José de Alencar</li>
+                  <li class="list-group-item">📚 A Morte e a Morte de Quincas Berro D’Água – Jorge Amado</li>
+                  <li class="list-group-item">📚 A Escrava Isaura – Bernardo Guimarães</li>
+                  <li class="list-group-item">📚 O Ateneu – Raul Pompéia</li>
+                  <li class="list-group-item">📚 Claro Enigma – Carlos Drummond de Andrade</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+          <section class="container my-5">
+            <div class="card shadow-lg border-0">
+              <div class="card-body p-5">
+                <h2 class="text-center">🌍 Literatura Estrangeira e Sagas Famosas</h2>
+                <p class="text-center">Se aventura, mistério e fantasia são mais o seu estilo, temos uma seleção especial de livros internacionais que vão te levar a outros mundos:</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">🔎 Sherlock Holmes – Mistérios brilhantes que desafiam sua mente!</li>
+                  <li class="list-group-item">🕵️‍♀️ Agatha Christie – A rainha do crime e seus enredos surpreendentes.</li>
+                  <li class="list-group-item">🦁 As Crônicas de Nárnia – Um universo mágico cheio de descobertas.</li>
+                  <li class="list-group-item">🧙 Harry Potter – Uma das sagas mais queridas do mundo!</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+          <section class="container my-5">
+            <div class="card shadow-lg border-0">
+              <div class="card-body p-5">
+                <h2 class="text-center">📕 Livros Técnicos e de Apoio ao Estudo</h2>
+                <p class="text-center">Nossa biblioteca também é um excelente espaço para aprendizado e aperfeiçoamento. Confira algumas áreas disponíveis:</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">📊 Administração e Marketing – Entenda melhor o mundo dos negócios.</li>
+                  <li class="list-group-item">⚖ Direito – Explore o funcionamento das leis e da justiça.</li>
+                  <li class="list-group-item">📚 Educação e Pedagogia – Para quem deseja aprimorar seu conhecimento na área do ensino.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 Biblioteca Etec Ermelinda Giannini Teixeira |
+        <a
+          href="https://www.cps.sp.gov.br/aviso-de-privacidade/"
+          style="color: white; text-decoration: none"
+          >Aviso de Privacidade</a
+        >
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

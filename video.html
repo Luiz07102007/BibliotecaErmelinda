@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descubra a Biblioteca - ETEC Ermelinda Giannini Teixeira</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+      <!-- Custom CSS -->
+      <style>
+        html,
+        body {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+  
+        body {
+          font-family: "Poppins", sans-serif;
+          background-color: #e9f7ef;
+          background-image: url("img/livro.png");
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          color: #333;
+          margin: 0;
+        }
+  
+        header {
+          background-color: #81c784; /* Light green */
+          color: white;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        #Buttons {
+          background-color: #66bb6a; /* Slightly darker green */
+          color: white;
+          border: none;
+          margin-top: 10px;
+          padding: 10px 15px;
+        }
+  
+        .container {
+          flex: 1;
+        }
+  
+        section {
+          margin: 20px auto;
+          max-width: 900px;
+          padding: 20px;
+          background-color: white;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+  
+        .carousel-item img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+  
+        footer {
+          background-color: #388e3c; /* Darker green */
+          color: white;
+          padding: 20px;
+          text-align: center;
+          width: 100%;
+          margin-top: auto;
+        }
+  
+        footer a {
+          color: white;
+          text-decoration: none;
+        }
+  
+        footer a:hover {
+          text-decoration: underline;
+        }
+      </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        📚✨ Descubra a Biblioteca da ETEC Prof. Ermelinda Giannini Teixeira!
+        ✨📚
+      </h1>
+      <div class="d-flex gap-2">
+        <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='videoeng.html';"
+        >
+          Traduzir para Inglês
+        </button>
+        <button
+          id="Buttons"
+          class="btn btn-sm"
+          onclick="window.location.href='index.html';"
+        >
+          Página inicial
+        </button>
+        <button
+        id="Buttons"
+        class="btn btn-sm"
+        onclick="window.location.href='video2.html';"
+      >
+      Proibição dos celulares?
+      </button>
+      <button
+      id="Buttons"
+      class="btn btn-sm"
+      onclick="window.location.href='livros.html';"
+    >
+      Mergulhando nos livros!
+    </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>
+          📚💙 Apaixonado por livros? Ou em busca de conhecer novas histórias...
+          e novas pessoas? 😉
+        </h2>
+        <p>
+          Seja qual for o seu caso, a Biblioteca da ETEC Prof. Ermelinda
+          Giannini Teixeira é o lugar perfeito para você!
+        </p>
+        <center>
+        <video controls width="300"> <source src="vids/videocasal.mp4">MP4</a></video>
+      </center>
+        <p>
+          Aqui, você encontra um universo de possibilidades: desde os grandes
+          clássicos da literatura até sagas incríveis que vão prender sua
+          atenção do começo ao fim.
+        </p>
+      </section>
+
+      <section>
+        <h2>📖 Por que a biblioteca é a escolha certa?</h2>
+        <ul>
+          <li>
+            ✔ Um acervo recheado de livros para todos os gostos – de romances
+            apaixonantes a aventuras eletrizantes!
+          </li>
+          <li>
+            ✔ Um espaço tranquilo para estudar e focar no que realmente importa.
+          </li>
+          <li>✔ Computadores disponíveis para pesquisa e aprendizado.</li>
+          <li>
+            ✔ Jogos de tabuleiro para aquele momento de descontração entre
+            amigos.
+          </li>
+          <li>
+            ✔ Oportunidade de trocar ideias, conhecer gente nova e compartilhar
+            sua paixão pela leitura!
+          </li>
+        </ul>
+        <p>
+          <strong>Então, que tal fazer parte dessa história?</strong> 📚✨ Venha
+          conhecer a biblioteca e se apaixonar (por um livro… ou quem sabe, por
+          alguém? 😏)!
+        </p>
+      </section>
+
+      
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 Biblioteca Etec Ermelinda Giannini Teixeira |
+        <a
+          href="https://www.cps.sp.gov.br/aviso-de-privacidade/"
+          style="color: white; text-decoration: none"
+          >Aviso de Privacidade</a
+        >
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
